@@ -1,0 +1,37 @@
+:host {
+  display: block;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 64px;
+  background-color: #1c5b8e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+button {
+  border: 1px solid white;
+  padding: 5px 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+  }
+}
+main {
+  padding: 20px;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
